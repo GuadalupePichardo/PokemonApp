@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#000000">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageButton
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:src="@drawable/pokebola" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero"
+            android:textColor="#f4d03f"
+            android:gravity="center"
+            android:layout_marginTop="22dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/supertype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super tipo"
+            android:textColor="#1e8449"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="37dp"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/subtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtipo"
+            android:textColor="#1e8449"
+            android:layout_gravity="center"
+            android:layout_marginTop="27dp"
+            android:textSize="16sp" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>
